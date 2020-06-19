@@ -9,3 +9,5 @@ The React router is from [DevEds Tutorial](https://www.youtube.com/watch?v=Law7w
 2. Using React Hooks with functional Components [here](https://github.com/MeRichard123/Learn-React/tree/master/react-hooks)
 3. Using React Router for page routing [here](https://github.com/MeRichard123/Learn-React/tree/master/react-router)
 
+A Contents Page is included in each folder if needed to help you navigate.
+
