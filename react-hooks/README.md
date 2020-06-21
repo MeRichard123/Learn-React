@@ -12,3 +12,14 @@
 - [Effect Hook Functional Components]() 'EffectMouse.js'
 - [useReducer Explanation]() 'useReducer/index.js'
 
+# Custom Hooks
+
+Custom Hooks Replace Functionality, for example both DocTitleOne.js and DocTitleTwo.js both need the
+useEffect Hook to change the title so we can use a custom hook useDocumentTitle() to avoid repetition.
+
+- [DocTitleOne]() [DocTitleTwo]() components
+- [useDocTitle Hook]()
+- [CounterCustomOne]() [CounterCustomTwo]() components
+- [useCounter Hook]()
+- [UserForm]() component
+- [UseInput Hook]()

@@ -36,6 +36,11 @@ import Counter from "./Components/UseMemo/Counter";
 import FocusInputs from "./Components/UseRefs/FocusInputs";
 import ClassTimer from "./Components/UseRefs/ClassTimer";
 import HookTimer from "./Components/UseRefs/HookTimer";
+import DocTitleOne from "./Components/BuildingHooks/DocTitleOne";
+import DocTitleTwo from "./Components/BuildingHooks/DocTitleTwo";
+import CounterCustomOne from "./Components/BuildingHooks/CounterCustomOne";
+import CounterCustomTwo from "./Components/BuildingHooks/CounterCustomTwo";
+import UserForm from "./Components/BuildingHooks/UserForm";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -122,6 +127,13 @@ function App() {
       <FocusInputs />
       <ClassTimer />
       <HookTimer />
+      <hr />
+      <h1>Building Custom Hooks</h1>
+      <DocTitleOne />
+      <DocTitleTwo />
+      <CounterCustomOne />
+      <CounterCustomTwo />
+      <UserForm />
     </div>
   );
 }
