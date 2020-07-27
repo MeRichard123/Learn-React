@@ -1,4 +1,4 @@
-import { BUY_CAKE } from "../Types/cakeTypes";
+import { BUY_CAKE } from "../Constants/cakeTypes";
 
 const initialState = {
   numbOfCakes: 10,
@@ -19,3 +19,5 @@ const cakeReducer = (state = initialState, action) => {
 };
 
 export default cakeReducer;
+
+// This is where the magic happens. It determines what happens to the sate.

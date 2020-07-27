@@ -1,4 +1,4 @@
-import { BUY_CAKE } from "../Types/cakeTypes";
+import { BUY_CAKE } from "../Constants/cakeTypes";
 
 export const buyCake = (number = 1) => {
   return {
@@ -6,3 +6,5 @@ export const buyCake = (number = 1) => {
     payload: number,
   };
 };
+
+// This is an action creator this is what is dispatched when the sates need changing.

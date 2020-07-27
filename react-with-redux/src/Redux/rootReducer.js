@@ -12,3 +12,6 @@ const rootReducer = combineReducers({
 });
 
 export default rootReducer;
+
+// combine all the reducers into one and give them a name
+// this name is used to access the state.

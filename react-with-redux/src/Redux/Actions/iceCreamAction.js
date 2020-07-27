@@ -1,4 +1,4 @@
-import { BUY_ICECREAM } from "../Types/iceCreamTypes";
+import { BUY_ICECREAM } from "../Constants/iceCreamTypes";
 
 export const buyIceCream = () => {
   return {

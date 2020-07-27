@@ -24,3 +24,6 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CakeContainer);
+
+// Here we attach the state to the props allowing you to use the state.
+// We then attach the dispatch functions to props to let you change.

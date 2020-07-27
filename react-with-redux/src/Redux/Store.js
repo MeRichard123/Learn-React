@@ -10,3 +10,5 @@ const store = createStore(
 );
 
 export default store;
+
+// the store takes the reducers and middleware

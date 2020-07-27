@@ -1,4 +1,4 @@
-import { BUY_SUBWAY } from "../Types/subwayTypes";
+import { BUY_SUBWAY } from "../Constants/subwayTypes";
 
 const initialState = {
   numbOfSubs: 80,
